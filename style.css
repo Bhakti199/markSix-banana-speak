@@ -1,0 +1,70 @@
+:root {
+    --primary-color: #FDE68A;
+    --grey-color: #FFFBEB;
+    --brown-color: #991B1B;
+    --black-color: #6B7280;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('./minion.jpg');
+    background-size: cover;
+}
+
+.navigation {
+    display: 100;
+    background-color: var(--primary-color);
+    color: var(--brown-color);
+    margin: 0;
+}
+
+.hero {
+    padding: 0rem;
+    padding-top: 0rem;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 0.5rem;
+    color: var(--primary-color);
+}
+
+#txt-input,
+#output {
+    margin: auto;
+    display: block;
+    padding: 1rem;
+    width: 60%;
+    height: 13vh;
+    font-size: 1.5rem;
+    border-width: 0.1rem;
+    border-color: olor);
+    border-radius: 1rem;
+    background-color: var(--grey-color);
+    opacity: 0.8;
+}
+
+button {
+    display: block;
+    margin: 0rem auto;
+    padding: 0.8rem;
+    font-size: 1rem;
+    /* font-family: 'Caveat', cursive; */
+    /* text-transform: uppercase; */
+    border-radius: 1rem;
+    background-color:
+
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    width: 100%;
+    display: 100%;
+    text-align: center;
+    color:var(--brown-color);
+ /* border-top-right-radius: 1rem;  */
+}
