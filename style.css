@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #FDE68A;
+    --primary-color: #60A5FA;
     --grey-color: #FFFBEB;
     --brown-color: #991B1B;
     --black-color: #6B7280;
+    --yellow-color: #FCD34D;
 }
 
 body {
@@ -13,23 +14,23 @@ body {
     background-size: cover;
 }
 
-.navigation {
-    display: 100;
+/* .navigation {
     background-color: var(--primary-color);
     color: var(--brown-color);
     margin: 0;
-}
+} */
 
 .hero {
-    padding: 0rem;
+    padding-block: 0rem;
     padding-top: 0rem;
 }
 
 .hero .hero-heading {
     text-align: center;
     font-size: 4rem;
-    padding-top: 0.5rem;
-    color: var(--primary-color);
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: var(--yellow-color);
 }
 
 #txt-input,
@@ -41,10 +42,10 @@ body {
     height: 13vh;
     font-size: 1.5rem;
     border-width: 0.1rem;
-    border-color: olor);
-    border-radius: 1rem;
+    border-color: var(--black-color);
+    border-radius: 0.78rem;
     background-color: var(--grey-color);
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 button {
@@ -55,16 +56,11 @@ button {
     /* font-family: 'Caveat', cursive; */
     /* text-transform: uppercase; */
     border-radius: 1rem;
-    background-color:
-
+    color: var(--black-color)
 }
-
 .footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
-    width: 100%;
-    display: 100%;
     text-align: center;
-    color:var(--brown-color);
- /* border-top-right-radius: 1rem;  */
+    /* color:; */
 }
