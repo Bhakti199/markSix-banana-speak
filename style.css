@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #60A5FA;
+    --primary-color: #2563EB;
     --grey-color: #FFFBEB;
     --brown-color: #991B1B;
     --black-color: #6B7280;
@@ -14,12 +14,6 @@ body {
     background-size: cover;
 }
 
-/* .navigation {
-    background-color: var(--primary-color);
-    color: var(--brown-color);
-    margin: 0;
-} */
-
 .hero {
     padding-block: 0rem;
     padding-top: 0rem;
@@ -33,8 +27,7 @@ body {
     color: var(--yellow-color);
 }
 
-#txt-input,
-#output {
+#txt-input, #output {
     margin: auto;
     display: block;
     padding: 1rem;
@@ -56,7 +49,7 @@ button {
     /* font-family: 'Caveat', cursive; */
     /* text-transform: uppercase; */
     border-radius: 1rem;
-    color: var(--black-color)
+    color: black;
 }
 .footer {
     background-color: var(--primary-color);
@@ -64,3 +57,4 @@ button {
     text-align: center;
     /* color:; */
 }
+ 
