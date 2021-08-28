@@ -7,6 +7,7 @@
     --black-color: #6B7280;
     --yellow-color: #FCD34D;
 }
+
 body {
     font-family: 'Caveat', cursive;
     margin: 0px;
@@ -30,7 +31,8 @@ body {
     color: var(--yellow-color);
 }
 
-#txt-input, #output {
+#txt-input,
+#output {
     margin: auto;
     display: block;
     padding: 1rem;
@@ -38,7 +40,7 @@ body {
     height: 12vh;
     font-family: 'Caveat', cursive;
     font-size: 2rem;
-    border-width: 0.1rem;    
+    border-width: 0.1rem;
     border-color: var(--black-color);
     border-radius: 0.78rem;
     background-color: var(--grey-color);
@@ -54,6 +56,7 @@ button {
     border-radius: 1rem;
     color: var(--black-color);
 }
+
 .footer {
 
     background-color: var(--primary-color);
@@ -62,4 +65,3 @@ button {
     font-size: 1.3rem;
     text-align: center;
 }
- 
