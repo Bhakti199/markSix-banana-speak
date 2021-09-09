@@ -1,5 +1,5 @@
-# markSix-banana-talk
-Banana Talk app converts the English language into Minionese. 
+# Minionese
+Minionese app converts the English language into Minionese. 
 
 It is a fun app made using HTML, CSS and Javascript.
 
